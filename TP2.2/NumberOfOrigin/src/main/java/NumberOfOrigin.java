@@ -66,7 +66,7 @@ public class NumberOfOrigin
         conf.set("mapred.textoutputformat.separator", ";");
 
         //Création du job
-        Job job = new Job(conf, "Sex Proportion");
+        Job job = new Job(conf, "Number Of Origin");
         job.setJarByClass(NumberOfOrigin.class);
 
         //on configure les entrées
