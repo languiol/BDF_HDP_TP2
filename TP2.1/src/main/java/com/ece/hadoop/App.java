@@ -80,7 +80,7 @@ public class App
         conf.set("mapred.textoutputformat.separator", ";");
 
         //Création du job
-        Job job = new Job(conf, "Sex Proportion");
+        Job job = new Job(conf, "Country Name");
         job.setJarByClass(App.class);
 
         //on configure les entrées
